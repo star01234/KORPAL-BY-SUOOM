@@ -45,7 +45,7 @@ async function printPDF() {
     yOffset -= 20; // ปรับระยะห่างของข้อความให้เล็กลง
   }
 
-  const name = "Fahsai";
+  const name = "A";
   const phoneNumber = "0123456789";
   page.drawText(`Name: ${name}`, {
     x: 50,
